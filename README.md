@@ -2,20 +2,13 @@
 
 - [Live Site](https://stayvista-live.web.app/)
 
-### Important Links:
+### Important Link:
 
-
-- [StayVista Part 1](https://github.com/shakilahmedatik/b9-stayVista-part1)
-- [StayVista Part 2](https://github.com/shakilahmedatik/b9-stayVista-part2)
-- [StayVista Part 3](https://github.com/shakilahmedatik/b9-stayVista-part3)
-- [StayVista Part 4 (Complete)](https://github.com/shakilahmedatik/b9-stayVista-part4)
-- [StayVista Resources](https://github.com/shakilahmedatik/b9-stayVista-resources)
 - [Project Requirement Doc](https://docs.google.com/document/d/1rzueKvZTinMb3XY7cuDNH0S0d_l8CflG1H95VUi2Dto/edit?usp=sharing)
 
   
 ## Topics Covered in each session:
 
-**Part 1 (17/05/2024):**
 - Introduction & Project overview.
 - Starter Template Setup
 - Setup MongoDB and upload fake json data in MongoDB.
@@ -27,17 +20,12 @@
 - Registration Page & Functionality.
 - Image upload using api (IMGBB).
 - Login Page & Functionality.
-
-
-**Part 2 (20/05/2024):**
 - Dashboard Layout
 - Add Room Page setup and functionality implement.
 - My Listings Page setup and functionality implement.
 - Save Registered users info in db.
 - Become a host api request implement.
 - Calendar issue fix in Room Details Page.
-
-**Part 3 (24/05/2024):**
 - useRole Hook.
 - Profile Page.
 - Manage Users Page.
@@ -45,8 +33,6 @@
 - Secure client and server routes.
 - Become a host Button functionality.
 - Booking modal and routes in dasboard.
-
-**Part 4 (28/05/2024):**
 - Payment system (Stripe).
 - Email Sending (NodeMailer).
 - Statistics Page in Dashboard.
