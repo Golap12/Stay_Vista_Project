@@ -10,7 +10,7 @@ import { useSearchParams } from 'react-router-dom'
 const Rooms = () => {
 
   const [params , setParams] = useSearchParams();
-  const category = params.get('category')
+  const category = params.get('category');
 
   const axiosCommon = useAxiosCommon();
 
@@ -22,7 +22,7 @@ const Rooms = () => {
     }
   })
 
- 
+  
   if (isLoading) return <LoadingSpinner />
 
   return (
