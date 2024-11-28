@@ -16,7 +16,7 @@ const port = process.env.PORT || 8000
 const corsOptions = {
   origin: ['http://localhost:5173', 'http://localhost:5174', 'https://stay-vista-9c858.web.app'],
   credentials: true,
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
 };
 app.use(cors(corsOptions));
 
