@@ -1,7 +1,7 @@
 const express = require('express')
+const cors = require('cors')
 const app = express()
 require('dotenv').config()
-const cors = require('cors')
 const nodemailer = require("nodemailer");
 const cookieParser = require('cookie-parser')
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb')
@@ -14,11 +14,12 @@ const port = process.env.PORT || 8000
 
 // middleware
 const corsOptions = {
-  origin: ['http://localhost:5173', 'http://localhost:5174'],
+  origin: ['http://localhost:5173', 'http://localhost:5174', 'https://stay-vista-9c858.web.app'],
   credentials: true,
-  optionSuccessStatus: 200,
-}
-app.use(cors(corsOptions))
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+};
+app.use(cors(corsOptions));
+
 
 app.use(express.json())
 app.use(cookieParser())
@@ -471,10 +472,10 @@ async function run() {
 
 
     // Send a ping to confirm a successful connection
-    await client.db('admin').command({ ping: 1 })
-    console.log(
-      'Pinged your deployment. You successfully connected to MongoDB!'
-    )
+    // await client.db('admin').command({ ping: 1 })
+    // console.log(
+    //   'Pinged your deployment. You successfully connected to MongoDB!'
+    // )
   } finally {
     // Ensures that the client will close when you finish/error
   }

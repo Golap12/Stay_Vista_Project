@@ -1,6 +1,6 @@
-# stayVista-starter-template
+# stayVista
 
-- [Live Site](https://stayvista-live.web.app/)
+- [Live Site](https://stay-vista-9c858.web.app)
 
 ### Important Link:
 
